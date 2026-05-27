@@ -1,0 +1,42 @@
+-----------------------------------------------
+|||||HOLA,ESPERO QUE MI PROGRAMA TE AYUDE|||||
+-----------------------------------------------
+__________________________________________________
+__________________________________________________
+-------------------------------
+|EL PROGRAMA HACE LO SIGUIENTE|
+-------------------------------
+__________________________________________________
+1.Pide al usuario el nombre de un archivo que tiene su lista de sitios web.
+/////////////////////////////////////////////////
+2.Verifica cada sitio web para ver si está activo y qué estado tiene.
+////////////////////////////////////////////////
+3.Si un sitio está activo (estado 200 ok), lo guarda en un archivo llamado "funcionando.txt".
+////////////////////////////////////////////////
+4.Luego, revisa los sitios activos y verifica si usan el puerto 443 con el protocolo h3.
+////////////////////////////////////////////////
+5.Los sitios que cumplen con esto se guardan en otro archivo llamado "activo_443.txt".
+///////////////////////////////////////////////
+6.Finalmente, muestra en la pantalla los sitios que cumplen con ambos criterios: estado 200 ok y puerto 443 con h3.
+__________________________________________________
+--------------------------------
+|REQUISITOS PARA USAR EN TERMUX|
+--------------------------------
+________________________________
+1.Instala Python:
+Asegúrate de tener Python instalado en Termux.
+Puedes instalarlo ejecutando el siguiente comando:
+pkg install python
+////////////////////////////////////
+2.Instala el paquete requests:
+Necesitarás instalar el paquete requests para que
+el script funcione. 
+Puedes hacerlo con el siguiente comando:
+///////////////////////////////////
+Ejecuta el script:
+Puedes ejecutar el programa usando el siguiente
+comando:
+python buscador.py
+________________________________
+
+
