@@ -1,1 +1,1 @@
-# Buscador-de-host
+Punto de ventas para comercios chicos
